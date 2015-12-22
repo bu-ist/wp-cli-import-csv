@@ -4,7 +4,7 @@
  * @author Jeff Sebring <jeff@jeffsebring.com>
  * @link http://jeffsebring.com
  * @license http://www.gnu.org/licenses/gpl-3.0.html GPLv3
- * @version 0.0.1-beta2
+ * @version 0.1
  *
  * Contributors: kidfiction
  */
