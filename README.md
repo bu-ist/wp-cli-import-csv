@@ -58,7 +58,7 @@ The importer uses the headers ( first line ) of files with specific formatting t
 There are 3 parameters to set in each column header, separated by a hyphen ( - ):
 
 * Data Type (post|meta|taxonomy|thumbnail)
-* Sanitization/Escaping callback function (function must be defined)
+* Sanitization/Escaping callback function (function must be defined, or use `blank` to skip)
 * Field name (underscored delimited field name)
 
 *** If a column is blank for some reason, simply name it's header 'blank'
@@ -72,6 +72,10 @@ The post data type may only contain valid post fields. The data is added using `
 Example of a header for a field that would contain the post title:
 
     post-wp_kses_post-post_title
+
+If using a previously created post, just specify the post ID:
+
+    post-blank-ID
 
 #### Meta
 
